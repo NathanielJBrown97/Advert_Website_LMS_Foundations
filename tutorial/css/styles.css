@@ -1,0 +1,52 @@
+/* default margin and padding for ALL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+   body {
+    background-color: #333;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+  section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  h1 {
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-family: Georgia, sans-serif;
+  }
+
+  h3 {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+  }
+  h4 {
+    color: white;
+    font-size: 20px;
+  }
+  li {
+    list-style-type: square;
+    font-family: Helvetica, sans-serif;
+  }
+
+  .artist{
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid red;
+  }
+  .spotlight{
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+    border: 10px solid yellow;
+  }
+  

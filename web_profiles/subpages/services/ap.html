@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AP Tutoring</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Pacifico&display=swap');
+
+        body {
+            font-family: 'Pacifico', cursive;
+            background-image: repeating-linear-gradient(
+              45deg,
+              yellow,
+              yellow 10px,
+              pink 10px,
+              pink 20px
+            );
+            animation: backgroundDance 5s infinite alternate;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .construction-box {
+            border: 15px dotted purple;
+            padding: 40px;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 35px;
+            box-shadow: 0 0 20px 10px rgba(0, 255, 0, 0.7), 0 0 30px 15px rgba(0, 0, 255, 0.7);
+            transform: rotate(-10deg);
+            animation: spinAndZoom 8s infinite alternate;
+        }
+
+        h1 {
+            font-size: 5em;
+            color: #ff00ff; 
+            text-shadow: 4px 4px 0px #00ff00; 
+        }
+
+        p {
+            font-family: 'Comic Neue', cursive;
+            font-size: 2.5em;
+            color: #0000ff; 
+            margin-top: 20px;
+            animation: textGlow 2s infinite alternate;
+        }
+
+        @keyframes spinAndZoom {
+            0% { transform: rotate(-10deg) scale(1); }
+            100% { transform: rotate(10deg) scale(1.1); }
+        }
+
+        @keyframes backgroundDance {
+            0% { background-position: 0% 0%; }
+            100% { background-position: 100% 100%; }
+        }
+
+        @keyframes textGlow {
+            0% { text-shadow: 4px 4px 0px #00ff00; }
+            100% { text-shadow: 4px 4px 15px #ff69b4; }
+        }
+    </style>
+</head>
+<body>
+    <a href="../../index.html" class="logo"><img src="images/LeeTutoringLogoTransparentSmall.webp" alt="Tutoring Company Logo" /></a>
+
+    <div class="construction-box">
+        <h1>AP TUTORING!</h1>
+        <p>i just wanna connect strings in the backend</p>
+    </div>
+</body>
+</html>

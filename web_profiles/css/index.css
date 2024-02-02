@@ -1,3 +1,4 @@
+/* UNIVERSAL BODY CHANGES - ALL PAGES*/
 body {
     font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
     margin: 0;
@@ -6,6 +7,7 @@ body {
 }
 
 
+/* NAV BAR ELEMENTS - ALL PAGES */
 .top-bar {
     display: flex;
     justify-content: space-between;
@@ -78,8 +80,6 @@ body {
     transition: background-color 0.3s ease;
     background-color: gold; 
 }
-
-
 .login-button {
     background-color: gold;
     color: navy;
@@ -99,8 +99,7 @@ body {
 }
 
 
-
-
+/* SECTION 1 -  'Make Next Day / Enrolling Now */
 .section-one {
     display: flex;
     justify-content: space-between;
@@ -114,26 +113,22 @@ body {
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Vertically center */
-    align-items: center; /* Horizontally center */
+    justify-content: center; 
+    align-items: center;
     text-align: left; 
     margin-right: 15px;
 }
-
 .content-left, .content-right {
     flex: 1;
 }
-
 .content-left h1 {
     font-size: 4.2em; 
     margin-bottom: 20px;
 }
-
 .content-left p {
     font-size: 1.4em;
     margin-bottom: 20px;
 }
-
 .enroll-button {
     background-color: gold;
     color: navy;
@@ -144,7 +139,6 @@ body {
     border-radius: 5px;
     transition: background-color 0.3s ease, transform 0.2s;
 }
-
 .enroll-button:hover {
     background-color: darkgoldenrod;
     transform: scale(1.05);
@@ -153,7 +147,6 @@ body {
     align-self: flex-start; 
     width: 100%; 
 }
-
 .content-right img {
     width: 100%; 
     max-width: 90%; 
@@ -162,7 +155,6 @@ body {
     margin: 5% auto;
     border-radius: 5px;
 }
-
 @media (max-width: 768px) {
     .section-one {
         flex-direction: column; 
@@ -175,6 +167,7 @@ body {
 }
 
 
+/* SECTION TWO - Online from the Ground Up */
 .section-two {
     position: relative;
     width: 100vw; 
@@ -192,8 +185,6 @@ body {
     box-sizing: border-box; 
     overflow: hidden; 
 }
-
-
 .overlay-text {
     max-width: 600px; 
     color: white; 
@@ -205,25 +196,21 @@ body {
     transform: translateY(-50%);
     z-index: 2;
 }
-
 .overlay-text h2, .overlay-text p {
     margin-left: 0; 
     margin-bottom: 20px;
 }
-
 .overlay-text h2 {
     font-size: 4.2em; 
     padding-right: 35px;
 }
-
 .overlay-text p {
     font-size: 1.2em;  
     padding-right: 200px
 }
 
 
-
-
+/* What Do We Do */
 .what-do {
     text-align: center;
     color: navy;
@@ -240,38 +227,31 @@ body {
     justify-content: space-around;
     flex-wrap: wrap;
 }
-
 .service {
     width: 22%; 
     margin: 5px; 
     text-align: left;
 }
-
 .service img {
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
     border-radius: 5px;
 }
-
 .service h3 {
     margin-bottom: 10px;
 }
-
 .service p {
     margin-bottom: 10px;
     font-size: 0.9em;
 }
-
 .service a {
     text-decoration: underline;
     color: navy; 
 }
 
 
-
-
-
+/* Contact Form */
 .contact-form-container {
     text-align: center;
     max-width: 500px; 
@@ -284,19 +264,16 @@ body {
     margin-top: 65px;
     margin-bottom: 200px;
 }
-
 .contact-form-container h2 {
     margin-top: 0px;
     margin-bottom: 20px;
     color: #faf0e6; 
     font-size: 3.2em; 
 }
-
 #contact-form {
     display: flex;
     flex-direction: column;
 }
-
 #contact-form input[type="text"],
 #contact-form input[type="email"],
 #contact-form input[type="tel"],
@@ -309,7 +286,6 @@ body {
     background-color: white; 
     color: navy; 
 }
-
 #contact-form button {
     background-color: gold; 
     color: navy;
@@ -320,17 +296,13 @@ body {
     transition: background-color 0.3s ease, transform 0.2s; 
     font-weight: bold;
 }
-
 #contact-form button:hover {
     background-color: darkgoldenrod; 
     transform: scale(1.05); 
 }
 
 
-
-
-
-
+/* Test Link Section */
 .test-links {
     text-align: center;
     padding: 0px;
@@ -338,20 +310,17 @@ body {
     font-size: 0.8em;
     line-height: 5px;
 }
-
 .test-links a {
     color: navy; 
     text-decoration: none;
     margin: 0 1px;
 }
-
 .test-links a:hover {
     text-decoration: underline; 
 }
 
 
-
-
+/* Footer */
 .site-footer {
     text-align: center;
     padding: 20px 10px;
@@ -359,13 +328,12 @@ body {
     color: navy; 
     font-size: 0.9em; 
 }
-
 .site-footer p {
     margin: 0; 
 }
 
 
-
+/* MODAL NOTIFICATION - REDIRECT TO REAL SITE */
 .modal {
     display: none;
     position: fixed;

@@ -70,6 +70,10 @@
     height: auto;
     border-radius: 25%; 
     margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+.tutor-photo:hover {
+    transform: scale(1.10);
 }
 .title {
     font-weight: bold;

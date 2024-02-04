@@ -1,0 +1,115 @@
+/*Contact Form Section*/
+.contact-section h1 {
+    font-size: 4em;
+    text-align: center;
+    color: navy;
+    margin-bottom: 0px;
+}
+.contact-section p {
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: navy;
+}
+#contact-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: navy; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.contact-form-container {
+    text-align: center;
+    max-width: 800px; 
+    margin: 40px auto; 
+    padding: 40px; 
+    background-color: navy; 
+    color: #faf0e6;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+#contact-form {
+    max-width: 800px; 
+    margin: auto;
+    padding: 40px; 
+    background: navy;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form input[type="tel"],
+#contact-form select,
+#contact-form textarea {
+    margin-bottom: 20px; 
+    padding: 20px; 
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: #fff;
+    color: navy;
+    font-size: 1.2em; 
+}
+#contact-form button {
+    font-size: 1.3em; 
+    padding: 20px 40px; 
+    background-color: gold;
+    color: navy;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+/* Phone Section */
+.contact-hours-section,  .contact-email-section {
+    text-align: center; 
+    margin: 40px auto; 
+    padding: 20px;
+    background-color: #faf0e6; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    color: navy;
+    max-width: 600px;
+}
+.contact-hours-section h2 {
+    font-size: 2em; 
+    margin-bottom: 15px; 
+}
+.contact-hours-section p {
+    font-size: 1.2em; 
+    margin-bottom: 10px; 
+}
+
+
+/* Email Section */
+.contact-email-link {
+    color: navy;
+    text-decoration: none; 
+    font-weight: bold; 
+}
+.contact-email-link:hover {
+    text-decoration: underline;
+    color: darkgoldenrod; 
+}
+
+
+/* Social Media */
+.social-media-links {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+}
+.social-icon {
+    width: 40px; 
+    height: 40px; 
+    border-radius: 50%; 
+    margin: 0 10px; 
+    transition: transform 0.3s ease; 
+}
+.social-icon:hover {
+    transform: scale(1.1);
+}

@@ -3,155 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Prep Experts</title>
-    <link href="css/index.css" type="text/css" rel="stylesheet">
-    
+    <title>Lab 2</title>
 </head>
 <body>
 
+    <h1>Lab 2 Blank Template</h1>
 
-    <!-- NAVIGATION -->
-    <div class="top-bar">
-        <a href="index.html" class="logo"><img src="images/LeeTutoringLogoTransparentSmall.webp" alt="Tutoring Company Logo"></a>
-        <div class="countdown">COUNTDOWN PLACEHOLDER </div>
-        <div class="navigation">
-            <a href="subpages/about.html">About Us</a>
-            <div class="dropdown">
-                <span>Services</span>
-                <div class="dropdown-content">
-                    <a href="subpages/services/act.html">ACT Prep</a>
-                    <a href="subpages/services/sat.html">SAT Prep</a>
-                    <a href="subpages/services/math.html">Math Tutoring</a>
-                    <a href="subpages/services/ap.html">AP Tutoring</a>
-                </div>
-            </div>
-            <a href="subpages/contact.html">Contact</a>
-            <a href="subpages/login.html" class="login-button">Login / Sign Up</a>
-        </div>
-    </div>
+    <p id="myNameOutput"></p>
+    <p id="partnerNameOutput"></p>
+    <p id="longestNameOutput"></p>
+    <p id="formattedNameOutput"></p>
+    <p id="reverseNameOutput"></p>
 
-
-     <!-- SECTION ONE -->
-    <div class="section-one">
-        <div class="content-left">
-            <h1>Make Next Test Day Their Best Day!</h1>
-            <p>Our test prep experts are ready to help your student catch up, get ahead, and earn scholarships.</p>
-            <div class="button-container">
-                <a href="subpages/contact.html" class="enroll-button">Enrolling Now</a>
-            </div>
-        </div>
-        <div class="content-right">
-            <img src="images/stock/girl-celebrating-computer-948x1024.webp" alt="Student Success">
-        </div>
-    </div>
-
-
-     <!-- Placeholder for where reviews will be inserted -->
-    <div class="google-reviews">
-    </div>
-    
-
-    <!-- SECTION TWO -->
-    <div class="section-two">
-        <div class="overlay-text">
-            <h2>Online from the Ground Up</h2>
-            <p>Lee Tutoring is built around online tutoring, and our test prep and academic curriculum is designed around your student’s busy schedule. We’re ready to meet with students on their time – all they need is internet access!</p>
-        </div>
-    </div>
-
-
-    <!-- WHAT WE DO -->
-    <div class="what-do">
-        <h2 id="grade-requirement">What We Do</h2>
-        <div class="services">
-            <div class="service">
-                <img src="images/staff/lee-desk.webp" alt="ACT Prep">
-                <h3>ACT Prep</h3>
-                <p>Improving ACT scores opens doors and brings in scholarships!</p>
-                <a href="subpages/services/act.html">Learn More</a>
-            </div>
-            <div class="service">
-                <img src="images/stock/math-nerd.webp" alt="SAT Prep">
-                <h3>SAT Prep</h3>
-                <p>Learn how to tackle the exam that parents and students dread.</p>
-                <a href="subpages/services/sat.html">Learn More</a>
-            </div>
-            <div class="service">
-                <img src="images/stock/why-are-these-on-the-ground.webp" alt="Math Tutoring">
-                <h3>Math Tutoring</h3>
-                <p>We cover middle school algebra all the way through AP Calculus.</p>
-                <a href="subpages/services/math.html">Learn More</a>
-            </div>
-            <div class="service">
-                <img src="images/stock/failing.webp" alt="AP Tutoring">
-                <h3>AP Tutoring</h3>
-                <p>AP classes can earn your student college credit - make sure they're prepared!</p>
-                <a href="subpages/services/ap.html">Learn More</a>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- CONTACT FORM -->
-    <div class="contact-form-container">
-        <h2>Contact Us</h2>
-        <form id="contact-form">
-            <input type="text" id="name" name="name" placeholder="Name" required>
-            <input type="email" id="email" name="email" placeholder="Email" required>
-            <input type="tel" id="phone" name="phone" placeholder="Phone">
-            <select id="subject" name="subject">
-                <option value="" disabled selected>Subject Student Is Preparing For</option>
-                <option value="ACT">ACT</option>
-                <option value="SAT">SAT</option>
-                <option value="Math">Math</option>
-                <option value="AP">AP</option>
-                <option value="Other">Other</option>
-            </select>
-            <textarea id="message" name="message" placeholder="Any other information you'd like to share with us?" rows="4"></textarea>
-            <button type="submit">Send</button>
-        </form>
-    </div>
-
-
-    <!-- TEST LINKS -->
-    <div class="test-links">
-        <p>Looking to register for an upcoming SAT or ACT?</p>
-        <p>ACT: <a href="https://www.act.org/" target="_blank">ACT.org</a></p>
-        <p>SAT: <a href="https://www.collegeboard.org/" target="_blank">CollegeBoard.org</a></p>
-    </div>
-
-
-    <!-- FOOTER -->
-    <footer class="site-footer">
-        <p><em>© 2024 All Rights Reserved. 727.543.8217 | hello@leetutoring.com</em></p>    
-        <p>Contact the developer: <a href="mailto:nathaniel_j_bro@uri.edu">nathaniel_j_bro@uri.edu</a></p>
-    </footer>
-    
-
-
-    
-    <div id="myModal" class="modal">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <p>Disclaimer: This is an active school project, not a live site for Lee Tutoring. If you made it here, and are looking for expert tutors please visit <a href="https://leetutoring.com" target="_blank">leetutoring.com</a>.</p>
-        </div>
-    </div>
-    <script>
-        window.onload = function() {
-            alert("Disclaimer: This is an active school project, not a live site for Lee Tutoring. If you made it here, and are looking for expert tutors please visit leetutoring.com");
-        };
-    </script>
-    <!-- JavaScript for the modal -->
-    <script>
-        // When the user loads the page, open the modal 
-        window.onload = function() {
-            document.getElementById("myModal").style.display = "block";
-        };
-
-        // When the user clicks on <span> (x), close the modal
-        document.getElementsByClassName("close")[0].onclick = function() {
-            document.getElementById("myModal").style.display = "none";
-        };
-    </script>
+    <script src="js/names.js"></script>
 </body>
 </html>

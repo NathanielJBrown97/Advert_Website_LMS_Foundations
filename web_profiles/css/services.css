@@ -24,9 +24,59 @@
 .prep-text p {
     font-size: 1.6em;
 }
+/* ACT/SAT Teach - Testimonial */
+.tests-teaching-testimony-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 40px; 
+    color:navy;
+}
+.tests-teaching-testimony-section h2 {
+    font-size: 3.2em;
+}
+.tests-teaching-testimony-section p {
+    font-size: 1.2em;
+}
+.subsection {
+    flex: 1;
+}
+.tests-text-section {
+    padding-right: 20px;
+}
+.tests-quote-section blockquote {
+    font-style: italic;
+    padding: 20px;
+    margin: 0;
+    border-left: 5px solid navy;
+    font-size: 1.2em;
+}
+.tests-quote-section cite {
+    display: block;
+    text-align: right;
+    font-size: 1.6em;
+}
+@media (max-width: 768px) {
+    .tests-teaching-testimony-section {
+        flex-direction: column;
+        text-align: center;
+    }
+    .tests-subsection {
+        width: 100%;
+        padding: 10px;
+    }
+    .tests-text-section, .quote-section {
+        text-align: center;
+    }
+    .tests-quote-section blockquote, .quote-section cite {
+        text-align: center;
+    }
+}
 
-/* Teach - Testimonial */
+/* Math/AP Teaching Testimony Section */
 .teaching-testimony-section {
+    background-color:gold;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -73,6 +123,20 @@
     .quote-section blockquote, .quote-section cite {
         text-align: center;
     }
+}
+.subjects-section h2 {
+    font-size: 2.5em;
+    text-align: center; 
+}
+.subjects-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto; 
+    display: table; 
+}
+.subjects-section ul li {
+    text-align: center;
+    margin-bottom: 10px; 
 }
 
 /* Difference Section */

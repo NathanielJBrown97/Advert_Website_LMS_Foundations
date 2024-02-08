@@ -4,73 +4,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SAT Tutoring</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Pacifico&display=swap');
-
-        body {
-            font-family: 'Pacifico', cursive;
-            background-image: repeating-linear-gradient(
-              45deg,
-              yellow,
-              yellow 10px,
-              pink 10px,
-              pink 20px
-            );
-            animation: backgroundDance 5s infinite alternate;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-
-        .construction-box {
-            border: 15px dotted purple;
-            padding: 40px;
-            text-align: center;
-            background-color: rgba(255, 255, 255, 0.8);
-            border-radius: 35px;
-            box-shadow: 0 0 20px 10px rgba(0, 255, 0, 0.7), 0 0 30px 15px rgba(0, 0, 255, 0.7);
-            transform: rotate(-10deg);
-            animation: spinAndZoom 8s infinite alternate;
-        }
-
-        h1 {
-            font-size: 5em;
-            color: #ff00ff; 
-            text-shadow: 4px 4px 0px #00ff00; 
-        }
-
-        p {
-            font-family: 'Comic Neue', cursive;
-            font-size: 2.5em;
-            color: #0000ff; 
-            margin-top: 20px;
-            animation: textGlow 2s infinite alternate;
-        }
-
-        @keyframes spinAndZoom {
-            0% { transform: rotate(-10deg) scale(1); }
-            100% { transform: rotate(10deg) scale(1.1); }
-        }
-
-        @keyframes backgroundDance {
-            0% { background-position: 0% 0%; }
-            100% { background-position: 100% 100%; }
-        }
-
-        @keyframes textGlow {
-            0% { text-shadow: 4px 4px 0px #00ff00; }
-            100% { text-shadow: 4px 4px 15px #ff69b4; }
-        }
-    </style>
+    <link href="../../css/index.css" type="text/css" rel="stylesheet">
+    <link href="../../css/services.css" type="text/css" rel="stylesheet">
+>
 </head>
 <body>
-    <a href="../../index.html" class="logo"><img src="images/LeeTutoringLogoTransparentSmall.webp" alt="Tutoring Company Logo" /></a>
 
-    <div class="construction-box">
-        <h1>SAT TUTORING!</h1>
-        <p>i just wanna connect strings in the backend</p>
+
+    <!-- NAVIGATION -->
+    <div class="top-bar">
+        <a href="../../index.html" class="logo"><img src="../../images/LeeTutoringLogoTransparentSmall.webp" alt="Tutoring Company Logo"></a>
+        <div class="countdown" id="SATcountdown">SAT</div>
+        <div class="countdown" id="ACTcountdown">ACT</div>
+        <div class="navigation">
+            <a href="../about.html">About Us</a>
+            <div class="dropdown">
+                <span>Services</span>
+                <div class="dropdown-content">
+                    <a href="act.html">ACT Prep</a>
+                    <a href="sat.html">SAT Prep</a>
+                    <a href="math.html">Math Tutoring</a>
+                    <a href="ap.html">AP Tutoring</a>
+                </div>
+            </div>
+            <a href="../contact.html">Contact</a>
+            <a href="../login.html" class="login-button">Login / Sign Up</a>
+        </div>
     </div>
+
+
+    <!-- PREP SECTION -->
+    <div class="prep-section">
+        <div class="prep-image">
+            
+            <img src="../../images/stock/thought-study.webp" alt="Woman writing in a notebook">
+        </div>
+        <div class="prep-text">
+            <h1>SAT Prep</h1>
+            <p>We help our SAT Prep students set clear goals, and hold those students accountable through every part of the testing process.</p>
+        </div>
+    </div>
+
+
+    <!-- TEACH / TESTIMONIALS SECTION  -->
+    <div class="tests-teaching-testimony-section">
+        <div class="subsection tests-text-section">
+            <h2>Our Approach</h2>
+            <p>We’ve helped hundreds of students strive for their score goals. Along the way, we developed tried and true methods that get consistent results. However, that doesn’t mean we’re stuck in our ways. At every turn, we’ve made it a priority to have the best available resources and teaching technology on-hand. With these tools and our experience, we’ve designed a potent recipe for SAT Prep success.
+
+                <br><br>We handle the SAT and ACT differently, but many of the skills we teach will help your student on both tests. For more information on our ACT Prep approach, visit our <a href="act.html">ACT Prep page</a>.
+                
+                <br><br>To meet the challenge of the SAT, we equip our students with proven tools and strategies – but never shortcuts. You can’t fake your way through this exam, so our instruction focuses on improving students’ reading comprehension and mathematical reasoning skills.</p>
+        </div>
+        <div class="subsection tests-quote-section">
+            <blockquote>“When it came time to take her SAT, she was fully prepared and exhilirated about the potential improvement...The increase in her score was significant. While I would recommend Lee Tutoring, what is more important is that my daughter would recommend them.”</blockquote>
+            <cite>- Tammy R.<br>St. Pete Parent</cite>
+        </div>
+    </div>
+    
+    
+    <!-- DIFFERENCE SECTION -->
+    <div class="difference-section">
+        <h2>SAT Scoring</h2>
+        <p>The SAT is scored out of a total of 1600 points. 400 are available from Reading, 400 more from Writing and Language, and 800 from Mathematics. No matter what score your student is looking to achieve, there are only two sections that can be Superscored. If a school permits Superscoring (many do, check the individual college’s admissions webpage for specific information), Reading and Writing will combine for half the score, and the No-Calculator section will join with the Calculator section for the other half. That means Reading and Writing will not be Superscored individually – only as a combined figure. 
+
+            <br><br>Before our first session with a new SAT Prep student, we’ll look at their past scores to identify strengths and opportunities for improvement. We’ll check to make sure your student is taking the right test for them, as it may be beneficial to switch testing focus to the ACT. Our testing plan, though, will never be finalized until we sit down with a student to discover more about their goals and ambitions.
+            
+            <br><br>Looking to register for an upcoming SAT? Visit the Collegeboard website here: <a href="https://satsuite.collegeboard.org/sat/registration">CollegeBoard.org</a></p>
+    </div>
+
+    
+    <!-- CONTACT FORM -->
+    <div id="contact-header">
+        <h1>Is your student taking the right test?</h1>
+        <h3>We'll help you figure it out.</h3>
+    </div>  
+    <div class="contact-form-container">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" id="name" name="name" placeholder="Name" required>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <input type="tel" id="phone" name="phone" placeholder="Phone">
+            <select id="subject" name="subject">
+                <option value="" disabled selected>Subject Student Is Preparing For</option>
+                <option value="ACT">ACT</option>
+                <option value="SAT">SAT</option>
+                <option value="Math">Math</option>
+                <option value="AP">AP</option>
+                <option value="Other">Other</option>
+            </select>
+            <textarea id="message" name="message" placeholder="Any other information you'd like to share with us?" rows="4"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    
+    
+    <!-- JavaScript -->
+    <script src="../../js/countdown.js"></script>
 </body>
 </html>

@@ -1,0 +1,101 @@
+/* PREP Section 1 */
+.prep-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    color: navy;
+}
+.prep-image img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 5px; 
+}
+.prep-text {
+    flex: 1;
+    padding: 20px;
+}
+.prep-text h1 {
+    font-size: 3.8em;
+    margin-bottom: 20px;
+}
+.prep-text p {
+    font-size: 1.6em;
+}
+
+/* Teach - Testimonial */
+.teaching-testimony-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 40px; 
+    color:navy;
+}
+.teaching-testimony-section h2 {
+    font-size: 3.2em;
+}
+.teaching-testimony-section p {
+    font-size: 1.2em;
+}
+.subsection {
+    flex: 1;
+}
+.text-section {
+    padding-right: 20px;
+}
+.quote-section blockquote {
+    font-style: italic;
+    padding: 20px;
+    margin: 0;
+    border-left: 5px solid navy;
+    font-size: 1.2em;
+}
+.quote-section cite {
+    display: block;
+    text-align: right;
+    font-size: 1.6em;
+}
+@media (max-width: 768px) {
+    .teaching-testimony-section {
+        flex-direction: column;
+        text-align: center;
+    }
+    .subsection {
+        width: 100%;
+        padding: 10px;
+    }
+    .text-section, .quote-section {
+        text-align: center;
+    }
+    .quote-section blockquote, .quote-section cite {
+        text-align: center;
+    }
+}
+
+/* Difference Section */
+.difference-section {
+    background-color: gold; 
+    color: navy;
+    padding: 20px; 
+    margin: 20px 0; 
+}
+.difference-section h2 {
+    color: navy;
+    margin-bottom: 15px;
+    font-size: 3.2em;
+}
+.difference-section p {
+    color: navy; 
+    line-height: 1.6; 
+    font-size: 1.6em;
+}
+.difference-section a {
+    color: darkblue; 
+    text-decoration: underline; 
+}
+
+
+

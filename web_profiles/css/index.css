@@ -255,6 +255,16 @@ body {
 
 
 /* Contact Form */
+#contact-header {
+    text-align: center;
+    color: navy;
+}
+#contact-header h1 {
+    font-size: 3.8em;
+}
+#contact-header h3 {
+    font-size: 1.4em; 
+}
 .contact-form-container {
     text-align: center;
     max-width: 500px; 

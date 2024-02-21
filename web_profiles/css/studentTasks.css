@@ -1,0 +1,50 @@
+/* Tasks Section */
+h1 {
+    color: navy;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 2.5em;
+}
+/*Task Headers*/
+.task-header {
+    background-color: navy;
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.task-header:hover {
+    background-color: darkgoldenrod;
+}
+.task-detail {
+    background-color: #ffffff;
+    color: navy;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    display: none;
+}
+/* jQuery UI Accordion Styling for Additional Effects */
+#tasks {
+    max-width: 800px;
+    margin: auto;
+}
+/* Upload Button Styling */
+.upload-btn {
+    display: inline-block; 
+    background-color: gold;
+    color: navy;
+    text-decoration: none;
+    padding: 8px 12px;
+    margin-top: 10px; 
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    border: 1px solid navy; 
+    font-size: 0.9em; 
+}
+.upload-btn:hover {
+    background-color: darkgoldenrod;
+    color: white; 
+}

@@ -6,12 +6,48 @@
     <title>TEMP - SIGNED IN - STUDENT</title>
     <link href="../../css/index.css" type="text/css" rel="stylesheet">
     <link href="../../css/studentTasks.css" type="text/css" rel="stylesheet">
-
+    
     <!-- Jquery and Related JS, Load at start for latency -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../js/jquery-3.6.0.min.js"><\/script>')</script>
     <script src="../../js/countdown.js"></script>
 
+    <!-- Temp styling infile; as this page won't exist in the end -->
+    <style>
+        .view-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 50px;
+        }
+        .view-box {
+            width: 200px;
+            height: 200px;
+            background-color: navy;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+        }
+        .view-box h2 {
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        .view-box a {
+            display: inline-block;
+            background-color: gold;
+            color: navy;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .view-box a:hover {
+            background-color: darkgoldenrod;
+        }
+    </style>
 </head>
 <body>
 
@@ -36,40 +72,23 @@
         </div>
     </div>
 
-    <!-- TASKS SECTION -->
-    <h1>Tasks for the Week</h1>
-    <div id="tasks">
-        <div class="task">
-            <h3 class="task-header">Task 1: Reading Assignment</h3>
-            <div class="task-detail">
-                <p>Finish reading chapter 5 of the biology textbook and write a short essay summarizing its main topics.</p>
-                <a href="#" class="upload-btn">Upload File</a>
-            </div>
+
+    <!-- Temporary Containers for Navigation to different account views -->
+    <div class="view-container">
+        <div class="view-box">
+            <h2>Parent View</h2>
+            <a href="parentSchedule.html">Go</a>
         </div>
-        <div class="task">
-            <h3 class="task-header">Task 2: Algebra Chapter 6: Practice Problems</h3>
-            <div class="task-detail">
-                <p>Complete all odds from page 78 to 82 in the Algebra workbook.</p>
-                <a href="#" class="upload-btn">Upload File</a>
-            </div>
+        <div class="view-box">
+            <h2>Student View</h2>
+            <a href="studentTasks.html">Go</a>
         </div>
-        <div class="task">
-            <h3 class="task-header">Task 3: Algebra Chapter 7: Practice Problems</h3>
-            <div class="task-detail">
-                <p>Complete all evens from page 84 to 93 in the Algebra workbook.</p>
-                <a href="#" class="upload-btn">Upload File</a>
-            </div>
-        </div>
-        <div class="task">
-            <h3 class="task-header">Task 4: Biology Chapter 3: Questionnaire</h3>
-            <div class="task-detail">
-                <p>Finish reading chapter 3, and fill out the assigned questionnaire.</p>
-                <a href="#" class="upload-btn">Upload File</a>
-            </div>
+        <div class="view-box">
+            <h2>Admin View</h2>
+            <a href="#">Go</a>
         </div>
     </div>
 
-    <!-- SCRIPTS AND JQUERY -->
-    <script src="../../js/studentTasks.js"></script>
+
 </body>
 </html>

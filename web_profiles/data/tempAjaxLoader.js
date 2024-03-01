@@ -28,4 +28,11 @@ $(document).ready(function() {
             }
         });
     });
+
+    // Function to clear previous content
+    function clearContent() {
+        $("#htmlContent").empty();
+        $("#jsonContent").empty();
+        $("#jqueryContent").empty();
+    }
 });

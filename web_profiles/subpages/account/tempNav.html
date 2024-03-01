@@ -3,14 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TEMP - SIGNED IN - STUDENT</title>
+    <title>TEMP NAV VIEW - Choose Who Logged In</title>
     <link href="../../css/index.css" type="text/css" rel="stylesheet">
     <link href="../../css/studentTasks.css" type="text/css" rel="stylesheet">
-    
-    <!-- Jquery and Related JS, Load at start for latency -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../js/jquery-3.6.0.min.js"><\/script>')</script>
     <script src="../../js/countdown.js"></script>
+    <script src="../../js/tempAjaxLoader.js"></script>
 
     <!-- Temp styling infile; as this page won't exist in the end -->
     <style>
@@ -51,6 +49,7 @@
 </head>
 <body>
 
+
     <!-- NAVIGATION -->
     <div class="top-bar">
         <a href="../../index.html" class="logo"><img src="../../images/LeeTutoringLogoTransparentSmall.webp" alt="Tutoring Company Logo"></a>
@@ -77,15 +76,19 @@
     <div class="view-container">
         <div class="view-box">
             <h2>Parent View</h2>
-            <a href="parentSchedule.html">Go</a>
+            <a href="parentSchedule.html">Go</a><br>
+            <button id="loadHtmlBtn">HTML: What's this do?</button>
         </div>
         <div class="view-box">
             <h2>Student View</h2>
-            <a href="studentTasks.html">Go</a>
+            <a href="studentTasks.html">Go</a><br>
+            <button id="loadJsonBtn">JSON: What's This Do?</button>
         </div>
         <div class="view-box">
             <h2>Admin View</h2>
-            <a href="#">Go</a>
+            <a href="#">Go</a><br>
+            <button id="loadJqueryContentBtn">Jquery: What's This Do?</button>
+
         </div>
     </div>
 

@@ -1,0 +1,9 @@
+{
+    "title": "JSON Navigation Options",
+    "description": "This data is loaded from a JSON file and dynamically added to the page.",
+    "links": [
+      {"title": "JSON Resource 1", "href": "jsonResource1.html"},
+      {"title": "JSON Resource 2", "href": "jsonResource2.html"}
+    ]
+  }
+  

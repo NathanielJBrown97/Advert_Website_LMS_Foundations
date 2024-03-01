@@ -1,0 +1,7 @@
+<!-- Temporary XML content for a6 requirements -->
+<info>
+    <title>XML Navigation Options</title>
+    <description>This data comes from an XML file and converted into HTML.</description>
+    <link title="XML Resource 1" href="xmlResource1.html" />
+    <link title="XML Resource 2" href="xmlResource2.html" />
+</info>

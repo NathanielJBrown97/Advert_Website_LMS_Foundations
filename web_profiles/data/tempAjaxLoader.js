@@ -1,7 +1,7 @@
 $(document).ready(function() {
     // load html 
     $("#loadHtmlBtn").click(function() {
-        $(".view-container").load("tempContent.html");
+        $("htmlContent").load("tempContent.html");
     });
 
     // load and process JSON data
@@ -12,7 +12,7 @@ $(document).ready(function() {
             $.each(data.links, function(index, link) {
                 items.push("<a href='" + link.href + "'>" + link.title + "</a><br>");
             });
-            $(".view-container").html(items.join(""));
+            $("jsonContent").html(items.join(""));
         });
     });
 
@@ -21,7 +21,7 @@ $(document).ready(function() {
         $.ajax({
             url: "tempJqueryContent.html",
             success: function(result) {
-                $(".view-container").html(result);
+                $("jqueryContent").html(result);
             }
         });
     });

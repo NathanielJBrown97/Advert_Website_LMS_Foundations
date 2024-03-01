@@ -2,7 +2,7 @@
     "title": "Student View is used by students.",
     "description": "This view would display a welcome page with a list of tasks the student is currently assigned, along with their due dates and a method to submit their materials and answers for hte assignments. Additionally this portal will ahve a way to access private session recordings with tutors, as well as a streamlined way to contact the tutors if needed.",
     "links": [
-      {"title": "Link to Task View", "href": "../subpages/account/studentTasks.html"},
+      {"title": "Link to Task View", "href": "studentTasks.html"},
       {"title": "Link to Private Resouces", "href": "#"}
     ]
   }

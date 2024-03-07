@@ -1,7 +1,7 @@
 // Initialize Google API Client
 function start() {
     gapi.client.init({
-        'apiKey': 'YOUR_API_KEY', // Optional
+        //'apiKey': 'YOUR_API_KEY', // Optional
         'clientId': '433893821442-j1rpdi5v1hblv8ur6bsrulrkr6idfci5.apps.googleusercontent.com',
         'scope': 'https://www.googleapis.com/auth/calendar.events',
         'discoveryDocs': ['https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest']

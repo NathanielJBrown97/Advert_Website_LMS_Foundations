@@ -64,7 +64,34 @@ function createCalendarEvent(eventDetails) {
 const tutoringSessions = [
     // ACT Prep sessions
     { subject: "ACT", date: "2023-03-10", time: "10:00 AM - 12:00 PM", description: "ACT Math Focus" },
-    // Additional session objects...
+    { subject: "ACT", date: "2023-03-10", time: "01:00 PM - 03:00 PM", description: "ACT Reading Comprehension" },
+    { subject: "ACT", date: "2023-03-12", time: "10:00 AM - 12:00 PM", description: "ACT Science Strategies" },
+    { subject: "ACT", date: "2023-03-12", time: "02:00 PM - 04:00 PM", description: "ACT English Grammar" },
+    { subject: "ACT", date: "2023-03-14", time: "10:00 AM - 12:00 PM", description: "Full ACT Practice Test" },
+    // SAT Prep sessions
+    { subject: "SAT", date: "2023-03-15", time: "10:00 AM - 12:00 PM", description: "SAT Math Problem Solving" },
+    { subject: "SAT", date: "2023-03-16", time: "01:00 PM - 03:00 PM", description: "SAT Critical Reading" },
+    { subject: "SAT", date: "2023-03-17", time: "10:00 AM - 12:00 PM", description: "SAT Writing and Language" },
+    { subject: "SAT", date: "2023-03-18", time: "02:00 PM - 04:00 PM", description: "SAT Essay Writing" },
+    { subject: "SAT", date: "2023-03-19", time: "10:00 AM - 12:00 PM", description: "Full SAT Practice Test" },
+    // Math Tutoring sessions
+    { subject: "Math", date: "2023-03-20", time: "10:00 AM - 11:00 AM", description: "Algebra I Fundamentals" },
+    { subject: "Math", date: "2023-03-21", time: "11:00 AM - 12:00 PM", description: "Geometry Concepts Review" },
+    { subject: "Math", date: "2023-03-22", time: "01:00 PM - 02:00 PM", description: "Trigonometry Basics" },
+    { subject: "Math", date: "2023-03-23", time: "02:00 PM - 03:00 PM", description: "Pre-Calculus Introduction" },
+    { subject: "Math", date: "2023-03-24", time: "03:00 PM - 04:00 PM", description: "Calculus Problem Solving" },
+    // AP Tutoring sessions
+    { subject: "AP", date: "2023-03-25", time: "10:00 AM - 11:30 AM", description: "AP Biology Exam Strategies" },
+    { subject: "AP", date: "2023-03-26", time: "11:30 AM - 01:00 PM", description: "AP US History Critical Analysis" },
+    { subject: "AP", date: "2023-03-27", time: "01:30 PM - 03:00 PM", description: "AP English Literature Composition" },
+    { subject: "AP", date: "2023-03-28", time: "03:00 PM - 04:30 PM", description: "AP Physics C Mechanics" },
+    { subject: "AP", date: "2023-03-29", time: "10:00 AM - 11:30 AM", description: "AP Calculus AB & BC Review" },
+    // Other Specialized
+    { subject: "Other", date: "2023-03-30", time: "10:00 AM - 11:00 AM", description: "Study Skills & Organization" },
+    { subject: "Other", date: "2023-04-01", time: "11:00 AM - 12:00 PM", description: "Critical Thinking & Logic" },
+    { subject: "Other", date: "2023-04-03", time: "01:00 PM - 02:00 PM", description: "Creative Writing Workshop" },
+    { subject: "Other", date: "2023-04-05", time: "02:00 PM - 03:00 PM", description: "Advanced STEM Problem Solving" },
+    { subject: "Other", date: "2023-04-07", time: "03:00 PM - 04:00 PM", description: "College Application Essays" },
 ];
 
 // Set dropdown menu by getting element ID

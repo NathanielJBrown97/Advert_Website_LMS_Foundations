@@ -15,7 +15,7 @@ body {
     padding: 20px;
 }
 .student-info {
-    background-color: #fff;
+    background-color: gold;
     border: 2px solid navy;
     padding: 15px;
     margin-bottom: 20px;
@@ -23,7 +23,7 @@ body {
 }
 /*headers*/
 h1, h2, h3 {
-    color: gold;
+    color: black;
 }
 .content h2, .content p {
     margin-top: 10px;

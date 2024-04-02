@@ -22,7 +22,10 @@ body {
     border-radius: 5px;
 }
 /*headers*/
-h1, h2, h3 {
+h1 {
+    color: gold;
+}
+h2, h3 {
     color: black;
 }
 .content h2, .content p {

@@ -72,7 +72,7 @@ $parentAccount->addStudent($student2);
 <html>
 <head>
     <title>Parental View</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="../../css/index.html" rel="stylesheet" type="text/css">
 </head>
 <body>
     <h1>Parental Dashboard</h1>

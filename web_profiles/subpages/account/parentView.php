@@ -52,9 +52,20 @@ class ParentAccount {
     public function displayStudentInfo() {
         echo "<h2>Student's Grades:</h2>";
         foreach ($this->students as $student) {
-            echo "<p>".$student->getName().": Average Grade: ".$student->getAverageGrade()."</p>";
+            echo "<div class='student-info'>";
+            echo "<h3>".$student->getName()."</h3>";
+            // Displaying individual grades
+            echo "<div class='grades'>";
+            foreach ($student->getGrades() as $grade) {
+                echo "<div class='grade-item'>Grade: $grade</div>";
+            }
+            echo "</div>"; // Closing grades div
+            // Displaying average grade
+            echo "<p>Average Grade: ".$student->getAverageGrade()."</p>";
+            echo "</div>"; // Closing student-info div
         }
     }
+
 }
 
 // Two students for display purposes
@@ -74,45 +85,32 @@ $parentAccount->addStudent($student2);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Parent View - Student Grades</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #faf0e6; 
-        }
-        .header {
-            background-color: navy;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        .content {
-            padding: 20px;
-        }
-        .student-info {
-            background-color: white;
-            border: 1px solid navy;
-            padding: 15px;
-            margin-bottom: 20px;
-            border-radius: 5px;
-        }
-        h1, h2 {
-            color: navy;
-        }
-        .grades {
-            margin-top: 10px;
-        }
-        .grade-item {
-            background-color: gold;
-            color: navy;
-            padding: 10px;
-            margin-bottom: 5px;
-            border-radius: 5px;
-        }
-    </style>
+    <link href="../../css/index.css" type="text/css" rel="stylesheet">
 </head>
 <body>
+    <!-- NAVIGATION -->
+    <div class="top-bar">
+        <a href="../../index.html" class="logo"><img src="../../images/LeeTutoringLogoTransparentSmall.webp" alt="Tutoring Company Logo"></a>
+        <div class="countdown" id="SATcountdown">SAT</div>
+        <div class="countdown" id="ACTcountdown">ACT</div>
+        <div class="navigation">
+            <a href="../about.html">About Us</a>
+            <div class="dropdown">
+                <span>Services</span>
+                <div class="dropdown-content">
+                    <a href="../services/act.html">ACT Prep</a>
+                    <a href="../services/sat.html">SAT Prep</a>
+                    <a href="../services/math.html">Math Tutoring</a>
+                    <a href="../services/ap.html">AP Tutoring</a>
+                </div>
+            </div>
+            <a href="../contact.html">Contact</a>
+            <a href="../../index.html" class="login-button">Sign Out</a>
+        </div>
+    </div>
+    
+
+    <!-- Header and Content For Student Grade Displays -->
     <div class="header">
         <h1>Parent View - Student Grades</h1>
     </div>

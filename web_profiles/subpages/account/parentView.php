@@ -69,21 +69,56 @@ $parentAccount->addStudent($student2);
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Parental View</title>
-    <link href="../../css/index.html" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parent View - Student Grades</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #faf0e6; 
+        }
+        .header {
+            background-color: navy;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .content {
+            padding: 20px;
+        }
+        .student-info {
+            background-color: white;
+            border: 1px solid navy;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        h1, h2 {
+            color: navy;
+        }
+        .grades {
+            margin-top: 10px;
+        }
+        .grade-item {
+            background-color: gold;
+            color: navy;
+            padding: 10px;
+            margin-bottom: 5px;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Parental Dashboard</h1>
-    <div>
-        <?php 
-            // Displaying student information
-            $parentAccount->displayStudentInfo(); 
-
-            // Displaying remaining tutoring sessions
-            echo "<p>Remaining Tutoring Sessions: ".$parentAccount->getRemainingSessions()."</p>"; 
-        ?>
+    <div class="header">
+        <h1>Parent View - Student Grades</h1>
+    </div>
+    <div class="content">
+        <?php $parentAccount->displayStudentInfo(); ?>
     </div>
 </body>
 </html>
+

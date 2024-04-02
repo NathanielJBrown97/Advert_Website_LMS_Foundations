@@ -25,6 +25,14 @@ body {
 h1, h2, h3 {
     color: navy;
 }
+.content h2, .content p {
+    margin-top: 10px;
+    background-color: navy;
+    color: gold; 
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
 /*grades and grade-item*/
 .grades, .grade-item {
     margin-top: 10px;

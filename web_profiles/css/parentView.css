@@ -37,14 +37,15 @@ h1, h2, h3 {
 .grades, .grade-item {
     margin-top: 10px;
     padding: 10px;
-    background-color: gold;
-    color: navy;
+    background-color: navy;
+    color: gold;
     margin-bottom: 5px;
     border-radius: 5px;
 }
 .grade-item {
-    background-color: #fff;
-    border: 1px dotted navy;
+    background-color: navy;
+    border: 1px dotted gold;
+    color: gold;
     padding: 8px;
     margin-bottom: 10px;
     border-radius: 5px;

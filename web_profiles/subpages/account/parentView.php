@@ -86,6 +86,12 @@ $parentAccount->addStudent($student2);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Parent View - Student Grades</title>
     <link href="../../css/index.css" type="text/css" rel="stylesheet">
+    <link href="../../css/parentView.css" type="text/css" rel="stylesheet">
+
+    <!-- Jquery and Related JS, Load at start for latency -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../js/jquery-3.6.0.min.js"><\/script>')</script>
+    <script src="../../js/countdown.js"></script>
 </head>
 <body>
     <!-- NAVIGATION -->

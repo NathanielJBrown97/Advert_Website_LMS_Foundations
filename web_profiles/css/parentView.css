@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #faf0e6;
+}
+.header {
+    background-color: navy;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+.content {
+    padding: 20px;
+}
+.student-info {
+    background-color: #fff;
+    border: 2px solid navy;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+/*headers*/
+h1, h2, h3 {
+    color: navy;
+}
+/*grades and grade-item*/
+.grades, .grade-item {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: gold;
+    color: navy;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.grade-item {
+    background-color: #fff;
+    border: 1px dotted navy;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+/* A */ 
+.navigation a, .dropdown span, .login-button {
+    color: gold;
+    background-color: navy;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.navigation a:hover, .dropdown span:hover, .login-button:hover {
+    background-color: darkgoldenrod;
+    color: white;
+}
+.dropdown-content {
+    background-color: navy;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    border-radius: 5px;
+    min-width: 160px;
+}
+.dropdown-content a {
+    color: white;
+    padding: 5px 10px;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: darkgoldenrod;
+}
+

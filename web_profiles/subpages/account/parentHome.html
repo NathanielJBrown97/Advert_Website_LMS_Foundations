@@ -41,6 +41,32 @@
             <a href="parentSchedule.html" class="portal-option">Schedule Appointments</a>
             <a href="parentView.php" class="portal-option">View Grades</a>
         </div>
+        <!-- Feedback Form -->
+        <form action="parentHome.php" method="post">
+            <h2>Feedback Form</h2>
+            <p>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required minlength="2" maxlength="100">
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </p>
+            <p>
+                <label for="satisfaction">Satisfaction Level:</label>
+                <select id="satisfaction" name="satisfaction">
+                    <option value="">Please choose</option>
+                    <option value="very_satisfied">Very Satisfied</option>
+                    <option value="satisfied">Satisfied</option>
+                    <option value="neutral">Neutral</option>
+                    <option value="dissatisfied">Dissatisfied</option>
+                    <option value="very_dissatisfied">Very Dissatisfied</option>
+                </select>
+            </p>
+            <p>
+                <button type="submit" name="submit">Submit Feedback</button>
+            </p>
+        </form>
     </div>
 
     <!-- JavaScript -->

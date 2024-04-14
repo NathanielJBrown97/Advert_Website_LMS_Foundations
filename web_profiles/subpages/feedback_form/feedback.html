@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link href="../../css/index.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Parent Feedback Form</h1>
+    <form action="process_feedback.php" method="POST">
+        <label for="childName">Child's Name:</label>
+        <input type="text" id="childName" name="childName" required><br>
+
+        <label for="sessionRating">Session Rating (1-10):</label>
+        <input type="number" id="sessionRating" name="sessionRating" min="1" max="10" required><br>
+
+        <label>Session Type:</label>
+        <select name="sessionType">
+            <option value="math">Math Tutoring</option>
+            <option value="science">Science Tutoring</option>
+            <option value="reading">Reading and Writing</option>
+        </select><br>
+
+        <label>Comments:</label>
+        <textarea name="comments" rows="4"></textarea><br>
+
+        <button type="submit">Submit Feedback</button>
+    </form>
+</body>
+</html>

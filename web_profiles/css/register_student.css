@@ -1,0 +1,62 @@
+/* Register Students Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #faf0e6; 
+    margin: 0;
+    padding: 0;
+}
+.top-bar {
+    background-color: navy;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+.top-bar a {
+    color: gold;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+.top-bar a:hover {
+    background-color: darkgoldenrod;
+    border-radius: 5px;
+}
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid navy;
+    border-radius: 5px;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: navy;
+}
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+button {
+    background-color: gold;
+    border: none;
+    color: navy;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: darkgoldenrod;
+}
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
